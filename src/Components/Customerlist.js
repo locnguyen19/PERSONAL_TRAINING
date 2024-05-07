@@ -41,7 +41,7 @@ function CustomerList() {
   const fetchCustomers = async () => {
     setLoading(true);
     try {
-      fetch(`${apiUrl}api/customers`)
+      fetch(`${apiUrl}/api/customers`)
         .then(response => response.json())
         .then(data => {
           setCustomers(data._embedded.customers);
@@ -70,7 +70,7 @@ function CustomerList() {
   //ADD A CUSTOMRER TO THE LIST
   const addCustomer = async (newCustomer) => {
     try {
-      const response = await fetch(`${apiUrl}/customers`, {
+      const response = await fetch(`${apiUrl}/api/customers`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newCustomer),
