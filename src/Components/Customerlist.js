@@ -102,7 +102,7 @@ function CustomerList() {
       fetch(link, { method: 'DELETE' })
         .then(response => {
           if (!response.ok) {
-            alert('Something went wrong in deletion');
+            alert('Something wrong');
           }
           else {
             fetchCustomers();
@@ -138,7 +138,7 @@ function CustomerList() {
   //ADD A NEW TRAINING
   const addTraining = async (newTraining) => {
     try {
-      const response = await fetch(`${apiUrl}api/trainings`, {
+      const response = await fetch(`${apiUrl}/api/trainings`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newTraining),
@@ -165,7 +165,7 @@ function CustomerList() {
     {
       headerName: '',
       width: 150,
-      field: '_links.trainings.href',
+      field: '',
       cellRenderer: trainingParams => <Addtraining trainingParams={trainingParams} addTraining={addTraining} />
     },
     {
