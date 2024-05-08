@@ -4,7 +4,6 @@ import { styled } from '@mui/material/styles';
 
 import { Drawer, Divider, ListItem, ListItemIcon, ListItemText, List, IconButton } from '@mui/material';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
 import EventIcon from '@mui/icons-material/Event';
 import AnalyticsIcon from '@mui/icons-material/Analytics';

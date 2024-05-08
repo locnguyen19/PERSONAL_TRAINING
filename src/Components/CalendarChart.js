@@ -9,7 +9,7 @@ import interactionPlugin from '@fullcalendar/interaction'
 
 import add from 'date-fns/add';
 
-const apiUrl = process.env.REACT_APP_API_URL;
+
 
 function Calendar() {
   const [trainings, setTrainings] = useState([]);
