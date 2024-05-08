@@ -58,10 +58,4 @@
 - [recharts](https://www.npmjs.com/package/recharts) (^2.1.9): React charting library for building responsive and customizable charts.
 - [lodash](https://www.npmjs.com/package/lodash) (^4.17.21): A comprehensive JavaScript utility library offering functions for common programming tasks.
 
-## Screenshots
-<p align="center">
-  <img width="900" height="auto" src="public/screenshots/Customers.jpg">
-  <img width="900" height="auto" src="public/screenshots/Trainings.jpg">
-  <img width="900" height="auto" src="public/screenshots/Statistics.jpg">
-  <img width="900" height="auto" src="public/screenshots/Calendar.jpg">
-</p>
+
