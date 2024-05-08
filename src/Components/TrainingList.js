@@ -23,19 +23,6 @@ function TrainingList() {
 
 
 
-  // const nameValueGetter = (params) => {
-  //   if (params.data.customer=== null) {
-  //     return "null";
-  //   } else {
-  //     return params.data.customer.firstname + ' ' + params.data.customer.lastname;
-  //   }
-  // }
-
-
-
-  // const dateValueGetter = (params) => {
-  //   return format(new Date(params.data.date), "dd.MM.yyyy' 'hh:mm' 'aaa");
-  // }
 
 
   const linkGetter = (params) => {
@@ -103,15 +90,7 @@ function TrainingList() {
       , sortable: true, filter: true, cellStyle: { 'textAlign': 'left' }, width: 155
     },
 
-    // {
-    //   headerName: '',
-    //   valueGetter :linkGetter,
-    //   width: 100,
-    //   cellRenderer: params =>
-    //     <IconButton onClick={() => deleteTraining(params.value)}>
-    //       <DeleteOutlinedIcon style={{ color: 'black' }} />
-    //     </IconButton>
-    // }
+   
     {
       width: 80,
       headerName: "",
